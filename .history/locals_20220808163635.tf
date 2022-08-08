@@ -6,6 +6,6 @@ locals {
     environment = var.environment
     ManagedWith = "terraform"
   }
-  buildregion     = var.buildregion
+  buildregion = var.buildregion
   SubcriptionName = var.SubcriptionName
 }
